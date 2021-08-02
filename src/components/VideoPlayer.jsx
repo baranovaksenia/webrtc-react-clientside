@@ -39,7 +39,7 @@ const VideoPlayer = () => {
               {name || "Name"}
             </Typography>
             <video
-              playsInLine
+              playsInline
               muted
               ref={myVideo}
               autoPlay
@@ -56,7 +56,7 @@ const VideoPlayer = () => {
               {call.name || "Name"}
             </Typography>
             <video
-              playsInLine
+              playsInline
               muted
               ref={userVideo}
               autoPlay
